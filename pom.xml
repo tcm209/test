@@ -12,6 +12,7 @@
     <artifactId>test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
+<!--    设置打包类型-->
     <packaging>war</packaging>
     <description>test jenkins</description>
     <properties>
@@ -53,13 +54,13 @@
         <finalName>my-test</finalName>
         <resources>
             <resource>
-                <directory>${basedir}/src/main/java</directory>
+                <directory>/src/main/java</directory>
                 <includes>
                     <include>**/*.xml</include>
                 </includes>
             </resource>
             <resource>
-                <directory>${basedir}/src/main/resources</directory>
+                <directory>/src/main/resources</directory>
                 <includes>
                     <include>**/*.*</include>
                 </includes>

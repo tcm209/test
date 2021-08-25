@@ -12,6 +12,7 @@
     <artifactId>test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
+    <packaging>war</packaging>
     <description>test jenkins</description>
     <properties>
         <java.version>1.8</java.version>

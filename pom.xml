@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.my</groupId>
     <artifactId>test</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
     <description>test jenkins</description>
